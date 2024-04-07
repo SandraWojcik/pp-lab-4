@@ -21,9 +21,9 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee: {" +
-                "fullName='" + fullName + '\'' +
-                ", Salary=" + salary +
+        return "Pracownik: {" +
+                "Imię i Nazwisko='" + fullName + '\'' +
+                ", Wypłata=" + salary +
                 '}';
     }
 }
